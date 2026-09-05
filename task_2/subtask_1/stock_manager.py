@@ -26,8 +26,8 @@ def display_stock(stock):
         print("Stock is empty.")
         return
     print("\n--- Current Inventory ---")
-    for item, count in stock.items():
-        print(f"{item.title()}: {count}")
+    for id ,(item, count) in enumerate(stock.items() , start=1):
+        print(f"{id}. {item.title()}: {count}")
 
 
 def main():
