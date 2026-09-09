@@ -1,0 +1,15 @@
+[project]
+name = "subtask-2"
+version = "0.1.0"
+description = "Subtask 2 pillow project"
+readme = "README.md"
+authors = [
+    { name = "ALI & ADHM", email = "lolallam89@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pillow>=12.3.0",
+]
+
+[tool.uv]
+package = false
