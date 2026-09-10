@@ -1,0 +1,5 @@
+type=Book|title=Dune|status=AVAILABLE|author=Frank  Herbert|isbn=9780441013593
+type=DVD|title=Inception|status=CHECKED_OUT|director=Christopher Nolan
+type=DVD|title=Matrix|status=CHECKED_OUT|director=Wachowskis
+type=DVD|title=Matrix|status=CHECKED_OUT|director=Wachowskis
+type=Magazine|title=Tech Monthly|status=AVAILABLE|issue=2026-09
