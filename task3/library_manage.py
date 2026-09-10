@@ -198,3 +198,41 @@ class Library:
         for item in self.items:
             if item.GetStatus() == "AVAILABLE":
                 print(item)  
+#///////////
+# for testing purposes  
+# book = Book("Dune")
+
+# print(book)
+# print(repr(book))
+
+# items = [
+#     Book("Harry Potter"),
+#     DVD("Avatar"),
+#     Magazine("Science Weekly"),
+#     Book("Dune")
+# ]
+
+# for item in sorted(items):
+#     print(item)
+# if __name__ == "__main__":
+#     # Initialize the library (this will automatically load from database.txt)
+#     my_library = Library()
+#     my_library.add_item(DVD("Matrix", "Wachowskis"))
+#     my_library.add_item(Magazine("Tech Monthly", "2026-09"))
+#     for item in my_library.items:
+#         print(item) # Tests __str__
+
+#     print("\n=== TEST 3: Encapsulation & Status Transitions ===")
+#     target_title = "Matrix"
+#     print(f"Trying to check out '{target_title}'...")
+#     my_library.checkout_item(target_title)
+
+#     # print(" Initial Available Items (Sorted Automatically) ")
+#     # my_library.list_available()
+
+#     print("\n Testing Checkout")
+#     my_library.checkout_item("Inception") # Should check out successfully
+    
+#     print("\n Testing ISBN Validation Static Method")
+#     valid_isbn = "9780441013593"
+#     print(f"Is ISBN {valid_isbn} valid?: {Book.validate_isbn(valid_isbn)}")
