@@ -1,0 +1,13 @@
+<circuit version="2.0.0-" rev="260501" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" anicurr="0" ansi="0" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="Nano-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-60,-40" rotation="0" hflip="1" vflip="1" label="Nano-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="m328 TQFP-269" Frequency="16 MHz" ForceFreq="true" savePGM="false" Program="C:/Users/ALI & ADHM/Desktop/AUR-Training-26/session4-Task/FreeRTOS-task-phase3/.pio/build/nanoatmega328/firmware.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="SerialTerm" CircId="SerialTerm-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-56,-104" rotation="0" hflip="1" vflip="1" label="SerialTerm-3" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Baudrate="9600 _Bd" DataBits="8 _bits" StopBits="1 _bits" SerialMon="false" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="SerialTerm-3-pin1" endpinid="Nano-2-1" pointList="-80,-96,-80,-24,-52,-24" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="SerialTerm-3-pin0" endpinid="Nano-2-0" pointList="-80,-112,-96,-112,-96,-16,-52,-16" />
+
+</circuit>
